@@ -12,7 +12,7 @@ If we are given a word then we can count the probability of the next word using 
 
 For one given word or uni-gram: 
 
->P(Next | Prev) = P(Prev | Next ) * P(Next)
+>P(word) = no of occurrence of the word  / total no of word
 
 
 For two given word or bi-gram: 
