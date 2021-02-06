@@ -17,9 +17,9 @@ For one given word or uni-gram:
 
 For two given word or bi-gram: 
 
->P(Next | Prev1, Prev2)  = P(Prev1 | Next ) *P(Prev2 | Next ) * P(Next)
+>P(Next | Prev1)  = P(Prev1 | Next ) * P(Next)
 
 
 For two given word or tri-gram: 
 
->P(Next | Prev1, Prev2, Prev3) \\ = P(Prev1 | Next ) *P(Prev2 | Next ) *P(Prev3 | Next )* P(Next)
+>P(Next | Prev1, Prev2) = P(Prev1 | Next ) *P(Prev2 | Next ) * P(Next)
