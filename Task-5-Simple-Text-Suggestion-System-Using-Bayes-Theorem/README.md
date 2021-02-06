@@ -11,21 +11,15 @@ In this problem we used underlying conditional probabilistic model of Bayesian t
 If we are given a word then we can count the probability of the next word using the conditional probabilistic model.
 
 For one given word or uni-gram: 
-$$
-P(Next | Prev) = P(Prev | Next ) * P(Next)
-$$
+
+>P(Next | Prev) = P(Prev | Next ) * P(Next)
+
 
 For two given word or bi-gram: 
-$$
-P(Next | Prev1, Prev2) \\ = P(Prev1 | Next ) *P(Prev2 | Next ) * P(Next)
-$$
+
+>P(Next | Prev1, Prev2)  = P(Prev1 | Next ) *P(Prev2 | Next ) * P(Next)
+
 
 For two given word or tri-gram: 
-$$
-P(Next | Prev1, Prev2, Prev3) \\ = P(Prev1 | Next ) *P(Prev2 | Next ) *P(Prev3 | Next )* P(Next)
-$$
 
-```
-
-
-```
+>P(Next | Prev1, Prev2, Prev3) \\ = P(Prev1 | Next ) *P(Prev2 | Next ) *P(Prev3 | Next )* P(Next)
